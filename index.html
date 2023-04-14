@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JS Basic</title>
+</head>
+<body>
+    <h2 id="hello">안녕하세요</h2>
+    <h2 id="hi">올때메로나</h2>
+
+    <script>
+        <!--document.getElementById : 이 부분을 셀렉터라고 함-->
+        <!--html : 웹 문서 -> document / id의 요소를 가져와라 id가 hello인 / 이런 것은 이해보다는 암기해서 사용 -->
+        document.getElementById('hello').innerHTML = '안녕';
+        <!--innerHTML, style 부분과 뒤의 변하게 하고 싶은 부분은 원하는 기능에 따라 구글 검색으로 채우기-->
+        document.getElementById('hello').style.color = 'skyblue';
+
+        document.getElementById('hi').innerHTML = '올때바밤바';
+        document.getElementById('hi').style.color = 'brown';
+
+
+        <!-- 1강 숙제 : 안녕 글자 사이즈를 50px로 바꾸기 -->
+        document.getElementById('hello').style.fontSize = '50px'
+    </script>
+</body>
+</html>
