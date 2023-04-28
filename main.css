@@ -1,0 +1,7 @@
+.alert-box {
+    background: rgb(126, 167, 190);
+    color: rgb(216, 31, 93);
+    padding: 20px;
+    border-radius: 5px;
+    display: none; /* css 숨기기(대부분 많이 씀), 다시 보이게 할 때는 block */
+}
